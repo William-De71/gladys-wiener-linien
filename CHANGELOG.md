@@ -5,7 +5,7 @@ follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions
 follow [Semantic Versioning](https://semver.org/). This file is generated at
 each release from the Conventional Commits: do not edit it by hand.
 
-## [0.1.0] - unreleased
+## [0.1.0] - 2026-11-13
 
 ### Added
 
@@ -19,3 +19,5 @@ each release from the Conventional Commits: do not edit it by hand.
 - Polite with the API: one request for all the followed stops, answers kept 15 seconds, a pause of 5 minutes when the request limit is reached, fewer readings at night.
 - Cloud transport: the real-time API of Wiener Linien (open data of the City of Vienna, CC BY 4.0) and its stop and line files, read weekly and kept in /data.
 - English, French, German and Spanish everywhere: settings, devices, widgets, scenes and documentation.
+
+[0.1.0]: https://github.com/William-De71/gladys-wiener-linien/releases/tag/v0.1.0
