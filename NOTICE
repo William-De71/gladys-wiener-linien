@@ -1,0 +1,22 @@
+Gladys Wiener Linien integration
+Copyright 2026 William Deren
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The real-time departures and the traffic messages come from the official
+real-time API of Wiener Linien, https://www.wienerlinien.at/ogd_realtime
+(documentation: https://www.wienerlinien.at/ogd_realtime/doku/), and the names
+and numbers of the stops and lines from the open data files published next to
+it (wienerlinien-ogd-haltestellen.csv, -haltepunkte.csv, -linien.csv). They are
+open government data of the City of Vienna under the Creative Commons
+Attribution 4.0 International licence (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+Data source: City of Vienna - https://data.wien.gv.at (Datenquelle: Stadt Wien
+- data.wien.gv.at). The widgets show the source and the time of each reading.
+
+The files under test/fixtures/ogd are extracts of those open data files
+(CC BY 4.0). The answers of the API used by the tests were built with the
+fields and formats recorded from the real API on 2026-11-12.
+
+This community integration is not affiliated with, endorsed or sponsored by
+Wiener Linien GmbH & Co KG, Wiener Stadtwerke or the City of Vienna.
